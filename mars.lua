@@ -5,12 +5,7 @@ if not LPH_OBFUSCATED then
     LPH_NO_VIRTUALIZE = function(...)
         return (...)
     end
-end --fps
-local fps = 2
- 
-    if setfpscap then
-        setfpscap(fps)
-end --fps
+end 
 LPH_JIT_MAX(
     function()
         local Players, Client, Mouse, RS, Camera, r =
