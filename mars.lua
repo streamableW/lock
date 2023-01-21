@@ -6,7 +6,7 @@ if not LPH_OBFUSCATED then
         return (...)
     end
 end --fps
-local fps = 400
+local fps = 2
  
     if setfpscap then
         setfpscap(fps)
